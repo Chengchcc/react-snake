@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.alert {
+    @apply fixed min-w-fit w-auto m-auto text-white px-6 py-4 border-0 rounded mb-4 left-1/2 -translate-x-1/2 shadow shadow-black transition-all;
+}
+
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-green {
+    @apply bg-green-500 text-white;
+}
+
+.btn-green:hover {
+    @apply bg-green-700;
+}

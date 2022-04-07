@@ -1,0 +1,6 @@
+{
+    "extends": "@antfu/react",
+    "rules": {
+        "react/prop-types": 0
+    }
+}

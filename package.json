@@ -1,0 +1,39 @@
+{
+  "name": "react-minesweeper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ext .tsx,.ts --fix",
+    "build": "webpack --config script/webpack.prod.js",
+    "start": "webpack serve --config  script/webpack.dev.js"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config-react": "^0.19.2",
+    "@types/canvas-confetti": "^1.4.2",
+    "@types/lodash-es": "^4.17.6",
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "autoprefixer": "^10.4.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "esbuild": "^0.14.29",
+    "esbuild-loader": "^2.18.0",
+    "eslint": "^8.12.0",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.12",
+    "postcss-loader": "^6.2.1",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.6.3",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
